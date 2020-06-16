@@ -16,7 +16,7 @@ Useful Links
 </p>
    
 ## Data and Experiment
-&nbsp; &nbsp; On contrary to using the entire 55 categories and 57,000 data from [ShapeNet](https://www.shapenet.org/) for training the model, we follow the setting as in [3DGAN](http://3dgan.csail.mit.edu/) where only seven categories from the [ShapeNet](https://www.shapenet.org/) are used in training. The evaluation is done on the ModelNet40 benchmark. We provide processed partial data in the following link:
+&nbsp; &nbsp; On contrary to using the entire 55 categories and 57,000 data that forms Shapenet55 from [ShapeNet](https://www.shapenet.org/) for training the model, we follow the setting as in [3DGAN](http://3dgan.csail.mit.edu/) where only seven categories from the [ShapeNet](https://www.shapenet.org/) are used in training. The evaluation is done on the ModelNet40 benchmark. We provide processed partial data in the following link:
 
 Training: [A subset](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x) consists of 7 categories from ShapeNet.    
 Evaluation: [ModelNet40 Aligned](https://modelnet.cs.princeton.edu/)  
