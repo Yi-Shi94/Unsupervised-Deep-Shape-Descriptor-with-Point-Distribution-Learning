@@ -34,7 +34,7 @@ In the ablation study (reconstruction, multiscale, roatation & noise invariance)
 
 Training and testing Details
 ----------------------
-Given the nature of our encoder-free decoder structure, both the decoder network and the descriptors are computed in an optimization manner. Therefore, the entire pipline involves two phases: decoder model training and descriptor computation. 
+&nbsp; &nbsp; Given the nature of our encoder-free decoder structure, both the decoder network and the descriptors are computed in an optimization manner. Therefore, the entire pipline involves two phases: decoder model training and descriptor computation. 
 
 <p align="center">
 <img src="imgs/Slide15.jpg" width="500">
