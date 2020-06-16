@@ -48,7 +48,9 @@ For each dataset involved, the hyper parameters should be tuned for the optimal 
 
 Dependencies
 -----------------
-We use Pytorch 1.3 for our model implementation.  
+We used Pytorch 1.3 for our model implementation. 
+
+-pytorch 
 
 -matplotlib 
 
@@ -57,6 +59,8 @@ We use Pytorch 1.3 for our model implementation.
 -sklearn 
 
 -open3d  
+
+-tqdm 
 
 Reference
 ---------------
