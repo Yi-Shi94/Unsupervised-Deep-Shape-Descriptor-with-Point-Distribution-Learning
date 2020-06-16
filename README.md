@@ -18,14 +18,14 @@ Useful Links
 ## Data and Experiment
 &nbsp; &nbsp; On contrary to using the entire 55 categories and 57,000 data from [ShapeNet](https://www.shapenet.org/) for training the model, we follow the setting as in [3DGAN](http://3dgan.csail.mit.edu/) where only seven categories from the [ShapeNet](https://www.shapenet.org/) are used in training. The evaluation is done on the ModelNet40 benchmark. We provide processed partial data in the following link:
 
-Training: [A subset](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x) consist of 7 categories from ShapeNet.    
+Training: [A subset](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x) consists of 7 categories from ShapeNet.    
 Evaluation: [ModelNet40 Aligned](https://modelnet.cs.princeton.edu/)  
 
 <p align="center">
 <img src="imgs/Slide9.jpg" width="680">
 </p>
 
-In the ablation study (reconstruction, multiscale, roatation & noise invariance), the experiment is conducted on [ShapeNet](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0). The evaluation for classification uses a random train/test split of 8:2. The classifier used in the final evaluation of computed descriptors is an MLP.
+In the ablation study (reconstruction, multiscale, roatation & noise invariance), the experiment is conducted on [ShapeNet](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x). The evaluation for classification uses a random train/test split of 8:2. The classifier used in the final evaluation of computed descriptors is an MLP.
 
 <p float="left">
 <img src="imgs/Slide10.jpg" width="430"/>
