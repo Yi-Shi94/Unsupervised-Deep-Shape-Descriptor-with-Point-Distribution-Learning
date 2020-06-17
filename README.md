@@ -9,7 +9,7 @@ Useful Links
 ### [Lab](https://wp.nyu.edu/mmvc/publications/)
 
 ## Overview
-&nbsp; &nbsp;This work focuses on unsupervised 3D point cloud descriptor/feature computation. The proposed learning based approach treats each point as a Gaussian and introduces an operation called 'Gaussian Sampling' which applies multiple 'disruptions' to each point. Then an auto-decoder model is leveraged to model a Maximum Likelihood Estimation process where the parameters of each point Gaussian are predicted. (i.e guess the mean which is also the original location of each point), through which the geometric information of the shape is learned. On the other hand, it can also be viewed as a non rigid self-registration process.
+&nbsp; &nbsp;This work focuses on unsupervised 3D point cloud descriptor/feature computation. The proposed learning based approach treats each point as a Gaussian and introduces an operation called 'Gaussian Sampling' which applies multiple 'disruptions' to each point. Then an auto-decoder model is leveraged to model a Maximum Likelihood Estimation process where the parameters of each point Gaussian are predicted. (i.e to guess the mean which is also the original location of each point), through which the geometric information of the shape is learned. On the other hand, it can also be viewed as a non rigid self-registration process.
     
 <p align="center">
 <img src="imgs/Slide6.jpg" width="500">
