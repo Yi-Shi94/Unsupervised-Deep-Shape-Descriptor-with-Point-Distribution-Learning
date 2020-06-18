@@ -25,7 +25,7 @@ Evaluation: [ModelNet40 Aligned](https://modelnet.cs.princeton.edu/)
 <img src="imgs/Slide9.jpg" width="680">
 </p>
 
-In the ablation study (reconstruction, multiscale, roatation & noise invariance), the model is trained on 7 major categories from ShapeNet. The experiment is then conducted within [ShapeNet](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x)  evaluation set. The evaluation for classification uses a train/test split of 8:2. The classifier used in the final evaluation of computed descriptors is an MLP.
+In the ablation study (reconstruction, multiscale, roatation & noise invariance), the model is trained on 7 major categories from ShapeNet. The experiment is then conducted within our [ShapeNet](https://drive.google.com/open?id=1Pmu9e70uKBvxgBYbjU8GxuzLY3xWPc0x)  evaluation set. The evaluation for classification uses a train/test split of 8:2. The classifier used in the final evaluation of computed descriptors is an MLP.
 
 <p float="left">
 <img src="imgs/Slide10.jpg" width="430"/>
