@@ -3,7 +3,7 @@
 
 Useful Links
 ----------------
-### [Paper](https://drive.google.com/file/d/1OjtTes9h4y1X0_yZNrWCmUTsuXgI4Ev1/view?usp=sharing)&nbsp; [Paper Backup](https://github.com/WordBearerYI/Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning/blob/master/06457.pdf)&nbsp; 
+### [Paper](https://drive.google.com/file/d/1OjtTes9h4y1X0_yZNrWCmUTsuXgI4Ev1/view?usp=sharing)&nbsp; | [Paper Backup](https://github.com/WordBearerYI/Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning/blob/master/06457.pdf)&nbsp; 
 ### [Slides](https://drive.google.com/open?id=14K5LHh_mtf7znlY2Re83OcQicpG-eF1C)&nbsp;
 ### [Teaser](https://drive.google.com/open?id=1cSuHC03yJhB2QISNpjMzAtYVPydVXkqi)&nbsp;
 ### [Lab](https://wp.nyu.edu/mmvc/publications/)
