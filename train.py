@@ -43,10 +43,12 @@ dataset = ShapeNet(root, device, opt.mode, opt.sigma)
 loader = DataLoader(dataset,batch_size=opt.batch_size,shuffle=True)
 
 checkpoint_dir = opt.save_dir
-
+if not os.path.isdir(checkpoint_dir):
+   os.mkdir('results')
+    
 latent_size = opt.latent_size
 num_total_instance = len(dataset)
-print(num_total_instance)
+num_batch =  np.ceil(num_total_instance/opt.batch_size)
 
 model = DeepLatent(latent_length = latent_size, n_samples = opt.sample_num, chamfer_weight = 0)
 
@@ -93,7 +95,7 @@ for epoch in range(opt.epochs):
         optimizer.step()
         training_loss += loss.item()
         
-        print("Epoch:[%d|%d], Batch:%d  loss: %f , chamfer: %f, l2: %f"%(epoch,opt.epochs,index,loss.item()/opt.batch_size,chamfer.item()/opt.batch_size,l2.item()/opt.batch_size))
+        print("Epoch:[%d|%d], Batch:[%d|%d]  loss: %f , chamfer: %f, l2: %f"%(epoch,opt.epochs,index,num_batch,loss.item()/opt.batch_size,chamfer.item()/opt.batch_size,l2.item()/opt.batch_size))
         
     training_loss_epoch = training_loss/(len(loader)*opt.batch_size)
 
