@@ -12,7 +12,7 @@ from model.networks import PDLNet
 class DeepLatent(nn.Module):
     #def __init__(self, loss_fn, n_samples=35, dim=[3, 256, 256, 256, 256, 256, 256, 1]):
     def __init__(self, latent_length, n_samples = 1024, chamfer_weight=0):
-        super(deeplatent, self).__init__()
+        super(DeepLatent, self).__init__()
         self.latent_length = latent_length
         self.pdl_net = PDLNet(latent_length,n_samples)
         self.chamfer_dist = ChamferDistance()
