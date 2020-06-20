@@ -116,7 +116,7 @@ class ModelNet40_multi(Dataset):
         print(block_num,block_size)
         self.block_size = int(block_size)
         self.block_num = int(block_num)
-        self.save_dir = 'results/%s/md40_subset%d/'%(name,block_num))
+        self.save_dir = 'results/%s/md40_subset%d/'%(name,block_num)
         if not os.path.exists(self.save_dir):
             os.mkdir(self.save_dir)
         
